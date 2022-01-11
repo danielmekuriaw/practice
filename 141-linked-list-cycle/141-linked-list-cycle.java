@@ -16,12 +16,12 @@ public class Solution {
             return false;
         }
         
-        //fast and slow pointer approach
         ListNode f = head;
         ListNode s = head;
+        
         while(f != null && f.next != null){
             f = f.next.next;
-            s= s.next;
+            s = s.next;
             if(f == s){
                 return true;
             }
