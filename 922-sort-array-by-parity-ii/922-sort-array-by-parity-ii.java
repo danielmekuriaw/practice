@@ -9,11 +9,6 @@ class Solution {
         int[] returned_array = new int[nums.length];
         
         for(int i = 0; i < nums.length; i++){
-            System.out.println("Even Index: " + even_index);
-            System.out.println("Odd Index: " + odd_index);
-            
-            System.out.println("I: " + i);
-            System.out.println("i%2: " + i%2);
             
             if(i%2 == 0){
                 while(nums[even_index]%2 != 0){
