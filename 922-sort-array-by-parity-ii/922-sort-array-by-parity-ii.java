@@ -1,7 +1,5 @@
 class Solution {
     public int[] sortArrayByParityII(int[] nums) {
-        List even_list = new ArrayList<Integer>();
-        List odd_list = new ArrayList<Integer>();
         
         int even_index = 0;
         int odd_index = 0;
