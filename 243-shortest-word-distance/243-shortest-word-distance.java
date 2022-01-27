@@ -2,7 +2,7 @@ class Solution {
     public int shortestDistance(String[] wordsDict, String word1, String word2) {
         boolean counter_switch = false;
         int distance = 0;
-        int min_distance = 2147483647;
+        int min_distance = Integer.MAX_VALUE;
         boolean second_round = false;
         String not_word = "";
         
