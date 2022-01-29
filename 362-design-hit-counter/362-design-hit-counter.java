@@ -1,9 +1,7 @@
 class HitCounter {
-    Set<Integer> hit_counts = new HashSet<Integer>();
     List hits = new ArrayList<Integer>();
 
     public HitCounter() {
-        
     }
     
     public void hit(int timestamp) {
